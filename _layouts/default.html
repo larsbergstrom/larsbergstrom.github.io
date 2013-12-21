@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/main.css">
+
+    </head>
+    <body>
+
+        <div class="site">
+          <div class="header">
+            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
+            <a class="extra" href="/">home</a> &nbsp;
+            <a class="blog" href="/blog.html">blog</a> &nbsp;
+            <a class="projects" href="/projects.html">projects</a> &nbsp;
+            <a class="publications" href="/publications.html">publications</a>
+          </div>
+
+          {{ content }}
+
+          <div class="footer">
+            <div class="contact">
+              <p>
+                Lars Bergstrom<br />
+                lars@lars.com
+              </p>
+            </div>
+            <div class="contact">
+              <p>
+                <a href="https://github.com/larsbergstrom">github.com/larsbergstrom</a><br />
+                <a href="http://www.linkedin.com/pub/lars-bergstrom/5/30a/2b">LinkedIn</a>
+                <a href="http://scholar.google.com/citations?user=1KzsIM8AAAAJ&hl=en">Google Scholar</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+    </body>
+</html>
