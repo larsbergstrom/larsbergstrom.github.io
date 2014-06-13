@@ -18,20 +18,20 @@ Previously, we have used Mozilla-internal infrastructure (maintainable by some m
 - Runs unit tests on Linux and unit tests, basic DOM tests, and ref tests on OSX
 - Integrates with GitHub and bors for automatic patch approval and merging
 
-We’re moving all of this to [Travis CI](http://www.travis-ci.org/) both because we would like to support open infrastructure and it enables contributors who are not on Mozilla staff to help. Additionally, Travis CI also isn’t hidden behind a firewall without external access, sharing infrastructure with mission-critical projects, so we can push changes to Servo’s build willy-nilly without worrying about breaking something in the server farm and jeopardizing FirefoxOS builds.
+We’re moving all of this to [Travis CI](http://www.travis-ci.org/) both because we would like to support open infrastructure and it enables more contributors than just those on Mozilla staff. Additionally, Travis CI isn’t hidden behind a firewall without external access, sharing infrastructure with mission-critical projects. So, now we can push changes to Servo’s build process without worrying about breaking something in the server farm and jeopardizing FireFoxOS builds.
 
 Today, we’re rolling out the first part - we’ve migrated building of the Rust compiler to Travis CI and are using their automatic caching on S3. Some key features we’re relying on are:
 
 - Targeting [multiple OSes](http://docs.travis-ci.com/user/multi-os/).
 - S3 [deployment](http://docs.travis-ci.com/user/deployment/s3/). Note that this allows any repository owner to “push” a new Rust compiler build to our S3 buckets, but the private S3 key remains secret only to me.
-- The totally awesome Travis CI support staff, who reply at all hours of the day - key because the Servo contributors working on this are in India and Chicago, IL, USA.
+- The fantastic Travis CI support staff, who reply at all hours of the day - key because the Servo contributors working on this are in India and Chicago, IL, USA.
 
 The new steps for updating a Rust compiler build used in Servo are [here](https://github.com/mozilla/servo/wiki/Updating-the-Rust-compiler-used-by-Servo).
 
 What’s next?
 
 - Extending the Rust prebuilt compilers to also create Android cross-targeting builds
-- Getting Servo itself running and testing on Travis CI (this is [almost working](https://travis-ci.org/Manishearth/servo) already!)
+- Getting Servo itself running and testing on Travis CI (this is [already working](https://travis-ci.org/mozilla/servo), but we just have to land it!)
 - Change our automation, [bors](https://github.com/brson/bors) to fire off Travis CI verification build and test runs on a reviewed PR instead of internal buildbot builds
 
 And what will we do later that we can’t do on today’s internal infrastructure?
