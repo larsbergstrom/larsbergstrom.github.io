@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Distributed Teams and time zones"
+title:  "Distributed teams and time zones"
 date:   2015-02-05 12:00:00
 categories: servo distributed
 ---
