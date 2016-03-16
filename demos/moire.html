@@ -258,7 +258,8 @@ function next() {
     updateBackgroundColor(t);
     updateColorsOfObject(objectA, t);
     updateColorsOfObject(objectB, t);
-    setTimeout(next, 16);
+    requestAnimationFrame(next);
 }
-next();</script>
+requestAnimationFrame(next);
+</script>
 </html>

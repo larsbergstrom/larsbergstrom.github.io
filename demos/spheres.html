@@ -489,9 +489,10 @@ function next() {
         lastHeightAngle = heightAngle;
     }
 
-    setTimeout(next, 0); 
+  requestAnimationFrame(next);
 }
-next();
+requestAnimationFrame(next);
+
 
 </script>
 </body>
