@@ -1,6 +1,6 @@
 name: Lars Bergstrom
 description: Lars Bergstrom
 pygments: true
-highlighter: rogue
+highlighter: rouge
 
 theme: jekyll-theme-cayman
