@@ -13,12 +13,12 @@ Your key goals for a regular 1:1 should be to build trust and empathy. Trust is 
 
 Below, I've got some very specific tips that may help you address many common mistakes I have seen, made myself, or heard from others.
 
-##1:1s are neither optional nor a status update
+## 1:1s are neither optional nor a status update
 As the manager, if you had something urgent, you should already have asked it - in e-mail, in a chat, or in another meeting. And status for remote teams should be relegated to asynchronous tools that collect, distribute, and track those updates (e.g., Geekbot).
 
 Whether it's 15 minutes or 30 minutes, the 1:1 should not be skipped and should have your undivided attention. Unless there is something hard to talk about, it should start with small talk and mainly move on to listening to comments or answering questions they have. You should attempt to connect to understand how they like to work, and whatever they are willing to share about their other interests. This will generally be harder the further the individual is from your own gender/race/background and multiplied by how far up the org chart you are. Expect it to take several meetings to be comfortable enough to have a candid conversation about even trivial topics.
 
-##Have a private 1:1 agenda/notes document
+## Have a private 1:1 agenda/notes document
 For each 1:1, have an entry for the meeting. Capture any agenda topics asynchronously ahead of the meeting. During the meeting or immediately after, capture any non-sensitive topics along with follow-ups. And then follow up. Part of building trust is starting with the small challenges (e.g., "my webcam is not great") and getting them addressed. If you can't fix the small concerns, people will never raise the big ones, and you will get blindsided over and over.
 
 ## Prepare some open-ended questions
